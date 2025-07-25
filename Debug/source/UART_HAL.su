@@ -1,0 +1,8 @@
+../source/UART_HAL.c:26:6:UART_DataAvailable	8	static
+../source/UART_HAL.c:39:8:UART_ReadLine	16	static
+../source/UART_HAL.c:69:6:UART_ClearBuffer	4	static
+../source/UART_HAL.c:86:6:UART_Write_Blocking	16	static
+../source/UART_HAL.c:104:10:UART_Write_NonBlocking	16	static
+../source/UART_HAL.c:123:6:UART_Write	16	static
+../source/UART_HAL.c:140:6:UART_echo	8	static
+../source/UART_HAL.c:165:6:UART_HAL_send_data	16	static
