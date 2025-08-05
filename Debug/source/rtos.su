@@ -1,0 +1,2 @@
+../source/rtos.c:23:6:get_control_data_safe	16	static
+../source/rtos.c:33:6:set_control_data_safe	16	static

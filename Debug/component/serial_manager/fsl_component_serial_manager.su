@@ -1,5 +1,5 @@
-C:\Users\foxtr\Documents\MCUXpressoIDE_25.6.136\workspace\MK64F12_Project\drivers/fsl_common_arm.h:579:24:DisableGlobalIRQ	16	static
-C:\Users\foxtr\Documents\MCUXpressoIDE_25.6.136\workspace\MK64F12_Project\drivers/fsl_common_arm.h:606:20:EnableGlobalIRQ	24	static
+C:\MCUXpressoIDE_25.6.136\workspace\EtherCATMaster\drivers/fsl_common_arm.h:579:24:DisableGlobalIRQ	16	static
+C:\MCUXpressoIDE_25.6.136\workspace\EtherCATMaster\drivers/fsl_common_arm.h:606:20:EnableGlobalIRQ	24	static
 ../component/serial_manager/fsl_component_serial_manager.c:378:32:SerialManager_StartWriting	32	static
 ../component/serial_manager/fsl_component_serial_manager.c:433:32:SerialManager_StartReading	32	static
 ../component/serial_manager/fsl_component_serial_manager.c:1165:32:SerialManager_Write	32	static

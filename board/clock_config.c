@@ -106,7 +106,7 @@ outputs:
 - {id: FlexBus_clock.outFreq, value: 40 MHz}
 - {id: LPO_clock.outFreq, value: 1 kHz}
 - {id: MCGFFCLK.outFreq, value: 1.5625 MHz}
-- {id: MCGIRCLK.outFreq, value: 2 MHz}
+- {id: MCGIRCLK.outFreq, value: 32.768 kHz}
 - {id: OSCERCLK.outFreq, value: 50 MHz}
 - {id: PLLFLLCLK.outFreq, value: 120 MHz}
 - {id: RMIICLK.outFreq, value: 50 MHz}
@@ -118,8 +118,8 @@ settings:
 - {id: MCGMode, value: PEE}
 - {id: CLKOUTConfig, value: 'yes'}
 - {id: ENETTimeSrcConfig, value: 'yes'}
+- {id: MCG.FCRDIV.scale, value: '1', locked: true}
 - {id: MCG.FRDIV.scale, value: '32'}
-- {id: MCG.IRCS.sel, value: MCG.FCRDIV}
 - {id: MCG.IREFS.sel, value: MCG.FRDIV}
 - {id: MCG.PLLS.sel, value: MCG.PLL}
 - {id: MCG.PRDIV.scale, value: '15'}
@@ -158,8 +158,8 @@ const mcg_config_t mcgConfig_BOARD_BootClockRUN =
     {
         .mcgMode = kMCG_ModePEE,                  /* PEE - PLL Engaged External */
         .irclkEnableMode = kMCG_IrclkEnable,      /* MCGIRCLK enabled, MCGIRCLK disabled in STOP mode */
-        .ircs = kMCG_IrcFast,                     /* Fast internal reference clock selected */
-        .fcrdiv = 0x1U,                           /* Fast IRC divider: divided by 2 */
+        .ircs = kMCG_IrcSlow,                     /* Slow internal reference clock selected */
+        .fcrdiv = 0x0U,                           /* Fast IRC divider: divided by 1 */
         .frdiv = 0x0U,                            /* FLL reference clock divider: divided by 32 */
         .drs = kMCG_DrsLow,                       /* Low frequency range */
         .dmx32 = kMCG_Dmx32Default,               /* DCO has a default range of 25% */

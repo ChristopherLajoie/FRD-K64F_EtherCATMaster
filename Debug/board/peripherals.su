@@ -1,4 +1,4 @@
 ../board/peripherals.c:226:13:CAN0_init	8	static
 ../board/peripherals.c:286:13:UART0_init	8	static
-../board/peripherals.c:293:6:BOARD_InitPeripherals	8	static
-../board/peripherals.c:303:6:BOARD_InitBootPeripherals	8	static
+../board/peripherals.c:317:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:327:6:BOARD_InitBootPeripherals	8	static

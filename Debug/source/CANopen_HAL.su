@@ -1,5 +1,5 @@
-C:\Users\foxtr\Documents\MCUXpressoIDE_25.6.136\workspace\MK64F12_Project\drivers/fsl_flexcan.h:1482:24:FLEXCAN_GetMbStatusFlags	16	static
-C:\Users\foxtr\Documents\MCUXpressoIDE_25.6.136\workspace\MK64F12_Project\drivers/fsl_flexcan.h:1504:20:FLEXCAN_ClearMbStatusFlags	16	static
+C:\MCUXpressoIDE_25.6.136\workspace\EtherCATMaster\drivers/fsl_flexcan.h:1482:24:FLEXCAN_GetMbStatusFlags	16	static
+C:\MCUXpressoIDE_25.6.136\workspace\EtherCATMaster\drivers/fsl_flexcan.h:1504:20:FLEXCAN_ClearMbStatusFlags	16	static
 ../source/CANopen_HAL.c:33:6:SendCANData	48	static
 ../source/CANopen_HAL.c:72:10:FLEXCAN_Receive_Moves	32	static
 ../source/CANopen_HAL.c:114:10:FLEXCAN_Receive_Buttons	32	static
@@ -7,7 +7,7 @@ C:\Users\foxtr\Documents\MCUXpressoIDE_25.6.136\workspace\MK64F12_Project\driver
 ../source/CANopen_HAL.c:198:6:Show_movesRecvBuffer	120	static
 ../source/CANopen_HAL.c:215:6:Show_buttonsRecvBuffer	120	static
 ../source/CANopen_HAL.c:232:6:Show_ledRecvBuffer	120	static
-../source/CANopen_HAL.c:248:6:set_Enable	4	static
-../source/CANopen_HAL.c:259:6:get_speed	4	static
-../source/CANopen_HAL.c:270:7:get_Axe_X	4	static
-../source/CANopen_HAL.c:281:7:get_Axe_Y	4	static
+../source/CANopen_HAL.c:242:6:get_enable	4	static
+../source/CANopen_HAL.c:253:6:get_speed	4	static
+../source/CANopen_HAL.c:264:7:get_Axe_X	4	static
+../source/CANopen_HAL.c:275:7:get_Axe_Y	4	static

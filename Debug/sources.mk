@@ -14,6 +14,9 @@ OBJS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+FreeRTOS/freertos_kernel \
+FreeRTOS/freertos_kernel/portable/GCC/ARM_CM4F \
+FreeRTOS/freertos_kernel/portable/MemMang \
 board \
 component/lists \
 component/serial_manager \
